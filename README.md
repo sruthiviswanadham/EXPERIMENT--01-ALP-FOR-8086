@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : V.V.SAI SRUTHI
-Roll no : 212223100061
-Date of experiment : 
+## Name : V.V.SAI SRUTHI
+## Roll no : 212223100061
+## Date of experiment : 03-03-2025
 
 
 
@@ -97,25 +97,87 @@ ret
 ```
 
 ## Output 
+![image](https://github.com/user-attachments/assets/30473abc-21bd-48bc-9de6-8025120db63a)
 
 
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+
+
+MOV AL,[4300H]
+MOV BL,[4301H]
+SUB AL,BL
+MOV [4302H],AL
+
+
+
+ret
+```
  
 ## Output  
+![image](https://github.com/user-attachments/assets/a637e98b-4bd1-4825-8ec7-c6ee9c677f55)
+
 ## Multiplication alp 
+```
+org 100h
+
+MOV AL,[4400H]
+MOV BL,[4401H]
+MUL BL
+MOV [4402H],AL
+MOV [4403H],AH
+
+ret
+```
+
+
  ## Output  
+![image](https://github.com/user-attachments/assets/006756c6-7e5c-4c4b-9d53-98a5ceceb3da)
 
 
 ## Division alp 
+```
+org 100h
+MOV AL,[4300H]
+MOV BL,[4301H]
+DIV BL
+MOV [4302H],AL
+
+MOV [4303H],AH
+```
 
 ## Output  
+![image](https://github.com/user-attachments/assets/878ab01b-6f59-4e27-982c-a8c87667a377)
+## Logical Operation
+```
+org 100h
+MOV AX,0A32H
+MOV BX,0B31H
+MOV SI,5000H
+OR AX,BX
+MOV [SI],AX
+MOV AX,0A32H
+AND AX,BX
+MOV [SI+2],AX
+MOV AX,0A32H
+XOR AX,BX
+MOV [SI+4],AX
+MOV AX,0A32H
+NOT AX
+MOV [SI+6],AX
+ret
+```
+## Output
+![image](https://github.com/user-attachments/assets/3f86e4e5-5724-4cbb-be69-afabad98cfc7)
+
 
 
 ## Result :
  
 
-
+Thus , the fundamental Arithmetic and Logical operations are excuted successfully.
 
 
 
