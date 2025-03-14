@@ -152,7 +152,8 @@ MOV [4303H],AH
 ```
 
 ## Output  
-![image](https://github.com/user-attachments/assets/878ab01b-6f59-4e27-982c-a8c87667a377)
+![image](https://github.com/user-attachments/assets/f491aba6-6c60-4002-837d-e5b495b32797)
+
 ## Logical Operation
 ```
 org 100h
