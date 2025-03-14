@@ -118,7 +118,8 @@ ret
 ```
  
 ## Output  
-![image](https://github.com/user-attachments/assets/a637e98b-4bd1-4825-8ec7-c6ee9c677f55)
+![image](https://github.com/user-attachments/assets/cb01bc44-0515-44af-86fb-d76460b17d7e)
+
 
 ## Multiplication alp 
 ```
