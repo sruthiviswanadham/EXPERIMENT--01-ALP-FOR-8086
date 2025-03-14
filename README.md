@@ -136,7 +136,8 @@ ret
 
 
  ## Output  
-![image](https://github.com/user-attachments/assets/006756c6-7e5c-4c4b-9d53-98a5ceceb3da)
+ ![image](https://github.com/user-attachments/assets/a4ab1965-cf44-4fe3-ba7f-109291ce0de3)
+
 
 
 ## Division alp 
