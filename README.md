@@ -174,7 +174,8 @@ MOV [SI+6],AX
 ret
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/3f86e4e5-5724-4cbb-be69-afabad98cfc7)
+![image](https://github.com/user-attachments/assets/4cea140e-11c7-4bb1-9478-65e61cfadf18)
+
 
 
 
